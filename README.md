@@ -1,4 +1,4 @@
-# Vue.js Single-file JavaScript Component demo
+# Vue.js Single-file JavaScript Component Demo
 
 #### Usage
 
