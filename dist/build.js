@@ -85,13 +85,8 @@ new Vue({
 
 "use strict";
 /* harmony default export */ __webpack_exports__["a"] = ({
-  template: `
-    <div>
-     <h1>Single-file JavaScript Component</h1>
-     <p>{{ message }}</p>
-    </div>
-  `,
-  data() {
+  template: '\n    <div>\n     <h1>Single-file JavaScript Component</h1>\n     <p>{{ message }}</p>\n    </div>\n  ',
+  data: function data() {
     return {
       message: 'Oh hai from the component'
     };
