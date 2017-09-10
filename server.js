@@ -18,8 +18,6 @@ function onRequest(request, response) {
     filename = path.join(__dirname, request.url);
   }
 
-  console.log(filename);
-
   // Serving server.js from cache. Useful for microbenchmarks.
   if (request.url === cachedUrl) {
     if (response.push) {
@@ -36,7 +34,6 @@ function onRequest(request, response) {
   else if ((filename.indexOf(__dirname) === 0) && fs.existsSync(filename) && fs.statSync(filename).isFile()) {
     //response.setHeader("Content-Type", 'text/javascript');
     if (request.url !== '/') {
-      console.log(mime.lookup(request.url));
       response.setHeader("Content-Type", mime.lookup(request.url));
     }
     response.writeHead(200);

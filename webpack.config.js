@@ -1,5 +1,5 @@
-var path = require('path')
-var webpack = require('webpack')
+var path = require('path');
+var webpack = require('webpack');
 
 module.exports = {
   entry: './app.js',
@@ -22,4 +22,4 @@ module.exports = {
       'vue$': 'vue/dist/vue.esm.js'
     }
   }
-}
+};
