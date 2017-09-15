@@ -3,14 +3,13 @@
 <head>
     <title>Vue.js Single-File JavaScript Component Demo</title>
     <script src="node_modules/vue/dist/vue.min.js"></script>
-    <!--<link rel="preload" as="script" href="/SingleFileComponent.js"></html>-->
-    <script type="module" src="/SingleFileComponent.js?21832719" crossorigin></script>
-    <script type="module" src="app.js" crossorigin></script>
-    <script nomodule src="/dist/build.js"></script>
 </head>
 <body>
 <div id="app">
     <single-file-component></single-file-component>
 </div>
 </body>
+<link rel="preload" as="script" href="SingleFileComponent.js"></html>
+<script type="module" src="app.js"></script>
+<script nomodule src="/dist/build.js"></script>
 </html>
