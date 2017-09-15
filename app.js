@@ -1,4 +1,4 @@
-import SingleFileComponent from './SingleFileComponent.js';
+import SingleFileComponent from '/SingleFileComponent.js';
 
 new Vue({
   el: '#app',
