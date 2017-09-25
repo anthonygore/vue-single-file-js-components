@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Vue.js Single-File JavaScript Component Demo</title>
-    <script src="node_modules/vue/dist/vue.min.js"></script>
+    <script src="node_modules/vue/dist/vue.js"></script>
 </head>
 <body>
 <div id="app">
@@ -10,5 +10,6 @@
 </div>
 </body>
 <script type="module" src="app.js"></script>
+<link rel="preload" href="./SingleFileComponent.js" as="script">
 <script nomodule src="/dist/build.js"></script>
 </html>
